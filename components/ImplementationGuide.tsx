@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { Building2, FileSignature, MapPin, Users, Phone, ShieldAlert, CheckCircle2, Mail, Copy, Check, FileCheck, Scale, ArrowDown, BookOpen } from 'lucide-react';
 
@@ -172,7 +173,7 @@ Com os melhores cumprimentos,
                  <div className="border rounded-lg p-4 bg-slate-50">
                    <h4 className="font-bold text-slate-900 mb-2 text-sm">Concurso Público</h4>
                    <p className="text-xs text-slate-600 text-justify leading-relaxed">
-                     Para projetos estruturantes (>750k€). Recomenda-se uma fase prévia de <strong>RFI (Request for Information)</strong> para afinar os requisitos técnicos de soberania antes de lançar o caderno de encargos final.
+                     Para projetos estruturantes (&gt;750k€). Recomenda-se uma fase prévia de <strong>RFI (Request for Information)</strong> para afinar os requisitos técnicos de soberania antes de lançar o caderno de encargos final.
                    </p>
                  </div>
                  <div className="border rounded-lg p-4 bg-slate-50">
