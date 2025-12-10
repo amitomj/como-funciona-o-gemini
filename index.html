@@ -3,8 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Portal de Conformidade IA - Justiça</title>
+    
+    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
     
@@ -22,13 +27,14 @@
         }
 
         /* Hide UI elements */
-        .print\:hidden { display: none !important; }
+        #app-ui { display: none !important; }
         
         /* Ensure readable text */
         p, h1, h2, h3, h4, li, td, th { color: #000 !important; }
         
         /* Clean Layout */
         #printable-report {
+          display: block !important;
           width: 100% !important;
           max-width: none !important;
           margin: 0 !important;
@@ -41,7 +47,9 @@
         .break-inside-avoid { break-inside: avoid; }
       }
     </style>
-  <script type="importmap">
+
+    <!-- Import Map: STRICTLY React 18.2.0 (Stable) -->
+    <script type="importmap">
 {
   "imports": {
     "lucide-react": "https://esm.sh/lucide-react@0.263.1?external=react",
@@ -49,12 +57,12 @@
     "react-dom": "https://esm.sh/react-dom@18.2.0",
     "react": "https://esm.sh/react@18.2.0",
     "react/jsx-runtime": "https://esm.sh/react@18.2.0/jsx-runtime",
-    "react-dom/": "https://esm.sh/react-dom@^19.2.1/",
-    "react/": "https://esm.sh/react@^19.2.1/"
+    "react/": "https://esm.sh/react@^19.2.1/",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.1/"
   }
 }
 </script>
-</head>
+  </head>
   <body class="bg-slate-50 text-slate-900 antialiased">
     <div id="root"></div>
   </body>
